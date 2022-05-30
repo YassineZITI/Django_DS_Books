@@ -44974,7 +44974,7 @@
     "model": "auth.user",
     "fields": {
         "password": "pbkdf2_sha256$180000$c7QgRtp9zPIs$0nR/YkpBN6Z9UAXC5uyZJDCPlYfgiKEFgsBd2smue4c=",
-        "last_login": "2022-05-29T22:41:15.946Z",
+        "last_login": "2022-05-30T03:02:34.619Z",
         "is_superuser": true,
         "username": "yassine",
         "first_name": "",
@@ -45886,56 +45886,6 @@
             "fatima"
         ],
         "topic": 3
-    }
-},
-{
-    "model": "users.profile",
-    "pk": 1,
-    "fields": {
-        "user": [
-            "yassine"
-        ],
-        "image": "profile_pics/profile_P4S1u7f.png"
-    }
-},
-{
-    "model": "users.profile",
-    "pk": 2,
-    "fields": {
-        "user": [
-            "amine"
-        ],
-        "image": "default.jpg"
-    }
-},
-{
-    "model": "users.profile",
-    "pk": 3,
-    "fields": {
-        "user": [
-            "meryem"
-        ],
-        "image": "profile_pics/default_SmLS98d.jpg"
-    }
-},
-{
-    "model": "users.profile",
-    "pk": 4,
-    "fields": {
-        "user": [
-            "fatima"
-        ],
-        "image": "profile_pics/default_Pnjmu7Z.jpg"
-    }
-},
-{
-    "model": "users.profile",
-    "pk": 5,
-    "fields": {
-        "user": [
-            "hafsa"
-        ],
-        "image": "default.jpg"
     }
 },
 {
