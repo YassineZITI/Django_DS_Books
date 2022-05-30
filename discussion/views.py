@@ -20,16 +20,7 @@ def discussion(request,category):
 	topic_posts = [ (topic ,Post.objects.filter(topic=topic).count())  for topic in topics]
 	return render(request,'discussion/topics.html',context={'object':topic_posts,'category':category})
 
-class CategoryListView(ListView):
-	model = Category
-	ordering = ['name']
-	template_name = 'discussion/discussions.html'
 
-	def get_context_data(self, **kwargs):
-		context = super(CategoryListView, self).get_context_data(**kwargs)
-		category_topics = [ (category ,Topic.objects.filter(category=category).count())  for category in Category.objects.all()]
-		context['object'] = category_topics
-		return context
 
 class PostListView(ListView):
 	model = Post

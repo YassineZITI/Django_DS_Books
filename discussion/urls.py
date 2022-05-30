@@ -25,7 +25,6 @@ urlpatterns = [
     
     path('post/<int:pk>/update', views.PostUpdateView.as_view(), name='post-update'),
     path('post/<int:pk>/delete', views.PostDeleteView.as_view(), name='post-delete'),
-    path('discussions/', views.CategoryListView.as_view(), name='discussion-list' ),
     path('discussions/<category>/', views.discussion, name='discussion-topics' ),
     path('submit_comment/<int:post_id>', views.submit_comment, name='submit-comment' ),
     
